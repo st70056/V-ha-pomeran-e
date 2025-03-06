@@ -1,2 +1,2 @@
-# V-ha-pomeran-e
+# Vaha-pomerance
 Odhad hmotnosti oloupaného pomeranče na základě fotografie a vstupní váhy.
