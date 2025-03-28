@@ -77,8 +77,45 @@ Pro řešení tohoto problému se nabízí kombinace následujících technik um
 
 V počáteční fázi projektu může být ideální začít jednodušším regresním modelem a následně experimentovat s pokročilejšími technikami pro zlepšení přesnosti.
 
-### Kontext a cíloví uživatelé  
+### 4. Kontext a cíloví uživatelé  
 
 Systém bude využíván především jednotlivci, kteří si plánují stravu a sledují svůj kalorický příjem. Uplatnění najde například mezi sportovci, lidmi držícími redukční dietu, diabetiky nebo každým, kdo si vede záznamy o příjmu živin.  
 
 Využití je zamýšleno v běžném domácím prostředí, kde uživatel jednoduše zváží pomeranč, pořídí fotografii, a systém mu na základě vstupu odhadne čistou hmotnost dužiny. Aplikace může být součástí mobilní aplikace pro výživu, fitness nebo dietní plánování.
+
+### Pohledy zúčastněných stran  
+
+Uživatelé očekávají jednoduché, rychlé a přesné řešení bez nutnosti složitého nastavování. Výživoví poradci by naopak mohli ocenit možnost integrace do výživových aplikací nebo exportu naměřených dat. V budoucnosti je proto vhodné brát ohled na různé úrovně uživatelských potřeb.
+
+## 5. Výzvy a omezení  
+
+### Co projekt neřeší  
+
+Projekt se zaměřuje výhradně na pomeranče a odhad hmotnosti jejich dužiny. Nepočítá s jinými druhy ovoce ani s odhadem nutričních hodnot jako takových (např. obsah cukru nebo vitamínů).  
+
+Také neřeší přesné rozpoznání pomeranče z fotografie – předpokládá se, že uživatel zadá vstupní hmotnost ručně a že fotografie odpovídá správnému formátu.
+
+### Limity řešení  
+
+- **Různorodost pomerančů** – odrůdy se mohou lišit strukturou, tloušťkou slupky nebo zralostí, což ovlivňuje přesnost predikce.
+- **Kvalita vstupních fotografií** – pokud bude fotka neostrá, příliš tmavá nebo špatně nasvícená, model nemusí fungovat spolehlivě.
+- **Závislost na vstupní hmotnosti** – bez správného zadání hmotnosti celého pomeranče není možné přesně odhadnout výstup.
+- **Počet trénovacích vzorků** – projekt je založen na omezeném množství dat. S větším datasetem by bylo možné výrazně zvýšit přesnost modelu.
+
+Uživatel by měl mít na paměti, že výsledek je pouze odhad, nikoliv laboratorně přesné měření.
+
+## 6. Budoucnost projektu  
+
+Projekt má potenciál dále růst a rozvíjet se jak po stránce technické, tak i obsahové.  
+
+### Rozšíření na další ovoce  
+V budoucnu by bylo možné systém rozšířit i na další druhy ovoce, například banány, avokádo nebo mango. Každý typ ovoce by měl svůj vlastní model přizpůsobený konkrétním charakteristikám (např. slupka u banánu nebo pecka u avokáda a manga).  
+
+### Rozšíření funkcionality  
+Do systému by mohly být integrovány další funkce, jako je výpočet nutričních hodnot (např. odhad množství cukrů nebo kalorií), export údajů do nutričních deníků nebo propojení s fitness aplikacemi.
+
+### Vylepšení modelu  
+S větším množstvím dat a pokročilejšími technikami strojového učení (např. hluboké neuronové sítě) by bylo možné zlepšit přesnost predikce a přizpůsobit model různým podmínkám a odrůdám ovoce.
+
+### Škálovatelnost  
+Projekt je dobře škálovatelný – lze ho přenést do mobilní aplikace nebo webového rozhraní. Po úpravě vstupů a modelu může být použit v různých jazycích a prostředích, čímž se otevírá prostor pro širší využití i v mezinárodním měřítku.
