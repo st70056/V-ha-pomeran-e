@@ -114,6 +114,17 @@ V budoucnu by bylo možné systém rozšířit i na další druhy ovoce, napří
 ### Rozšíření funkcionality  
 Do systému by mohly být integrovány další funkce, jako je výpočet nutričních hodnot (např. odhad množství cukrů nebo kalorií), export údajů do nutričních deníků nebo propojení s fitness aplikacemi.
 
+## 7. Poděkování a zdroje  
+
+Tento projekt vznikl čistě z vlastního nápadu a zkušenosti s praktickým problémem při počítání kalorií.  
+
+Veškeré číselné údaje (hmotnosti před a po oloupání) byly zaznamenány ručně při běžné konzumaci pomerančů v domácím prostředí. Stejně tak i fotografie byly pořízeny autorem projektu.  
+
+Projekt nebyl inspirován žádným konkrétním systémem nebo existujícím řešením.
+
+**Autoři:**  
+Adam Onofrej, Zdeněk Vítek
+
 ### Vylepšení modelu  
 S větším množstvím dat a pokročilejšími technikami strojového učení (např. hluboké neuronové sítě) by bylo možné zlepšit přesnost predikce a přizpůsobit model různým podmínkám a odrůdám ovoce.
 
